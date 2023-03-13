@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationCustom01">Id product portfolio</label>
-                    <input type="number" class="form-control" id="validationCustom01" value="{{ $data->ID_DMSP }}"
+                    <input type="number" min="0" max="3" class="form-control" id="validationCustom01" value="{{ $data->ID_DMSP }}"
                         name="ID_DMSP" required>
                     <div class="valid-feedback">
                         Looks good!
