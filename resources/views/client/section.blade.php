@@ -1,5 +1,6 @@
 @extends('client.index')
 @section('section')
+<link rel="stylesheet" href="{{asset('client/css/search.css')}}">
     <section class="home" id="home">
 
         <div class="content">
